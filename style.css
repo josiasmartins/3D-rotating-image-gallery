@@ -17,8 +17,7 @@ body {
     width: 200px;
     height: 200px;
     transform-style: preserve-3d;
-    animation: animate 20s linear infinite;
-    -webkit-box-reflect: below 0px linear-gradient(transparent, transparent, #0004);
+    animation: animate 22s linear infinite;
 }
 
 @keyframes animate {
@@ -39,9 +38,11 @@ body {
     transform-origin: center;
     transform-style: preserve-3d;
     transform: rotateY(calc(var(--i) * 45deg)) translateZ(400px);
+    -webkit-box-reflect: below 0px linear-gradient(transparent, transparent, #0004);
+
 }
 
-.box span image {
+.box span img {
     position: absolute;
     top: 0;
     left: 0;
