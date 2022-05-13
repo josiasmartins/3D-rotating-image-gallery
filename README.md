@@ -1,7 +1,7 @@
 # 3D Rotating Image Gallery
 
 ## demo
-[demo]()
+[demo](./assets/3D-rotate-image.gif)
 
 ### building 
 - HTML
